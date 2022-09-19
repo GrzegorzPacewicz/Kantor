@@ -7,7 +7,7 @@
     background: aliceblue;
 }
 
-.form_caution {
+.form__caution {
     padding: 5px;
     text-align: left;
 }
@@ -38,6 +38,7 @@
     padding: 10px;
     margin-left: 5px;
     text-align: center;
+    
 }
 
 .form__select {

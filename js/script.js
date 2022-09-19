@@ -14,15 +14,14 @@ formElement.addEventListener("submit", (event) => {
 
     switch (currency) {
         case "EUR":
-            result = (amount / rateEur).toFixed(2) + ` ${currency}`;
+            result = (amount / rateEur).toFixed(2) + `${currency}`;
             break;
         case "GBP":
-            result = (amount / rateGbp).toFixed(2) + ` ${currency}`;
+            result = (amount / rateGbp).toFixed(2) + `${currency}`;
             break;
         case "USD":
-            result = (amount / rateUsd).toFixed(2) + ` ${currency}`;
+            result = (amount / rateUsd).toFixed(2) + `${currency}`;
             break;
     }
     resultElement.value = result;
-
 });

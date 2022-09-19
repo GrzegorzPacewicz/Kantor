@@ -26,7 +26,7 @@
                     <label class="form__label">
                         <span>PLN</span>
                         <input class="form__inputAmount js-form__inputAmount" type="number" min="1" required
-                            placeholder="Wpisz kwotę" value="" step="1">
+                            placeholder="Wpisz kwotę" value="" step="0.01">
                     </label>
                 </fieldset>
                 <fieldset class="form__fieldset">
@@ -36,12 +36,12 @@
                         <option class="form__option" value="GBP">GBP</option>
                         <option class="form__option" value="USD">USD</option>
                     </select>
-                    <p class="form_caution">*Kurs NBP z dnia 14.09.2022</p>
+                    <p class="form__caution">*Kurs NBP z dnia 14.09.2022</p>
                 </fieldset>
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Wynik:</legend>
                     <button class="form__button">Otrzymasz</button>
-                    <input class="form__result js-form__result" type="text" name="result" readonly>
+                    <output class="form__result js-form__result" type="text" name="result" readonly>
                 </fieldset>
                 <button class="form__button form__button--reset" type="reset">Wyczyść</button>
             </form>
