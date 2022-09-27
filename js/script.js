@@ -28,16 +28,3 @@
 
         resultElement.value = result.toFixed(2) + ` ${currency}`;
     });
-}
-// switch (currency) {
-//     case "EUR":
-//         result = amount / rateEur;
-//         break;
-//     case "GBP":
-//         result = amount / rateGbp;
-//         break;
-//     case "USD":
-//         result = amount / rateUsd;
-//         break;
-// }
-// resultElement.innerHTML = `${amount.toFixed(2) + `${currency} PLN = <strong>${result.toFixed(2)} ${currency} </strong>`;
