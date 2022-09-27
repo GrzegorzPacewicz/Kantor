@@ -1,17 +1,17 @@
 {
-    let formElement = document.querySelector(".js-form");
-    let amountElement = document.querySelector(".js-form__inputAmount");
-    let currencyElement = document.querySelector(".js-form__select");
-    let resultElement = document.querySelector(".js-form__result");
+    const formElement = document.querySelector(".js-form");
+    const amountElement = document.querySelector(".js-form__inputAmount");
+    const currencyElement = document.querySelector(".js-form__select");
+    const resultElement = document.querySelector(".js-form__result");
 
     formElement.addEventListener("submit", (event) => {
         event.preventDefault();
 
-        let amount = amountElement.value;
-        let currency = currencyElement.value;
-        let rateEur = 4.7011;
-        let rateGbp = 5.4409;
-        let rateUsd = 4.7126;
+        const amount = amountElement.value;
+        const currency = currencyElement.value;
+        const rateEur = 4.7011;
+        const rateGbp = 5.4409;
+        const rateUsd = 4.7126;
 
         switch (currency) {
             case "EUR":
