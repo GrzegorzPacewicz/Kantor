@@ -9,21 +9,25 @@
 
         const amount = amountElement.value;
         const currency = currencyElement.value;
-        const rateEur = 4.7011;
-        const rateGbp = 5.4409;
-        const rateUsd = 4.7126;
 
-        switch (currency) {
-            case "EUR":
-                result = (amount / rateEur);
-                break;
-            case "GBP":
-                result = (amount / rateGbp);
-                break;
-            case "USD":
-                result = (amount / rateUsd);
-                break;
-        }
+        const calcuteResult = (amount, currency) => {
+
+            const rateEur = 4.7011;
+            const rateGbp = 5.4409;
+            const rateUsd = 4.7126;
+
+            switch (currency) {
+                case "EUR":
+                    return amount / rateEur;
+                case "GBP":
+                    return amount / rateGbp;
+                case "USD":
+                    return amount / rateUsd;
+            }
+        };
+
+        let result = calcuteResult(amount, currency);
+
         resultElement.value = result.toFixed(2) + ` ${currency}`;
 
     });
