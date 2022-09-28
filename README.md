@@ -1,5 +1,6 @@
 # Kantor2.0
-## Homepage: 
+
+## Demo version: 
 https://grzegorzpacewicz.github.io/kantor2.0/
 
 ## Basic Info
