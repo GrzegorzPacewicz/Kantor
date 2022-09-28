@@ -28,7 +28,7 @@
 
         let result = calcuteResult(amount, currency);
 
-        resultElement.value = result.toFixed(2) + ` ${currency}`;
+        resultElement.value =`${result.toFixed(2)} ${currency}`;
 
     });
 }
