@@ -10,9 +10,11 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     color: #222227;
-    max-width: 900px;
     margin: auto;
     padding: 20px;
     text-align: center;
     background-image: url(../images/money.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
