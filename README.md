@@ -1,7 +1,7 @@
 # Kantor
 
 ## Demo version: 
-https://grzegorzpacewicz.github.io/kantor/
+https://grzegorzpacewicz.github.io/Kantor/
 
 ## Basic Info
 The project I make during FrondEndDeveloper course: https://youcode.pl/frontend-developer-od-podstaw
